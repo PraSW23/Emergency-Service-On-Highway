@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UserInterface" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <!-- Define your desired attributes, including colorPrimary, etc. -->
+        <!-- Example:
+        <item name="colorPrimary">@color/my_light_primary</item>
+        -->
+    </style>
+
+    <style name="Theme.UserInterface" parent="Base.Theme.UserInterface">
+        <!-- Customize additional theme attributes if needed -->
+    </style>
+
+</resources>

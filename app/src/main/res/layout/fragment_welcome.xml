@@ -1,0 +1,63 @@
+<!-- fragment_welcome.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example@email.com"
+        android:textSize="18sp"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDriveMode"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Drive Mode"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="#fff"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/btnPanic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Panic"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</LinearLayout>

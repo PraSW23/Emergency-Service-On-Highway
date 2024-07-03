@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="16dp">
+
+    <!-- Company Logo -->
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:tint="@color/dark_gray" />
+
+    <!-- Username or Email Input -->
+    <EditText
+        android:id="@+id/editTextUsernameOrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_profile"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username or Email"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsernameOrEmail"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="textPassword" />
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="24dp"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button_background" />
+
+</RelativeLayout>
